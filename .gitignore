@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.py[cod]
+*$py.class
+
+venvs/
+env/
+jupyter-mlops/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data and models
+data/
+models/
+
+# MLflow
+mlruns/
+
+# DVC
+*.dvc
+.cache/
+
+*.csv
+*.tsv
+*.json
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# MLflow local DB
+mlflow.db
